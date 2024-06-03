@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+  <title>Where my parents are from</title>
+  <style>
+    body{
+     background-color: lightblue; 
+    }
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px
+  }
+  img {
+    margin: 10px ;
+    size: 10px;
+    height: 200px;
+        }
+  table {
+     width: 100%;
+     border-collapse: collapse;
+    margin-top: 10px;
+  }
+  h1{
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">HOME</a>
+        <a href="mom.html">MOM</a>
+        <a href="dad.html">DAD</a>
+      </div>
+      <h1>San Luis De La Loma</h1>    
+      <script>
+        let paragraph1 = document.createElement('p');
+        paragraph1.textContent = "San Luis De la Loma, located in the Guerrero state of Mexico, has a history deeply intertwined with the broader historical currents of the region. Founded in the late colonial period, this small town's development was influenced by its strategic location in the fertile valleys and its role in local agriculture. Throughout the 19th and early 20th centuries, San Luis a la Loma witnessed significant social and economic changes, particularly during the Mexican Revolution, which impacted many rural communities in Guerrero. The town's population has traditionally been involved in farming, with a focus on crops like corn and beans, and more recently, has seen shifts due to broader economic changes in Mexico. Despite these transformations, San Luis a la Loma retains much of its traditional character, with local customs, festivals, and a strong sense of community continuing to define its cultural landscape.";
+
+        let image1 = document.createElement('img');
+        image1.src = 'beach.webp';
+        image1.alt = 'beach';
+
+        let image2 = document.createElement('img');
+        image2.src = 'mex.jpeg';
+        image2.alt = 'mexco';
+
+        let paragraph2 = document.createElement('p');
+        paragraph2.textContent = "Visiting San Luis De la Loma offers a unique glimpse into the tranquil charm and cultural richness of Mexico's smaller towns. Nestled in the state of Guerrero, this picturesque locale is known for its warm, welcoming community and serene landscapes. The town is an ideal destination for travelers seeking an authentic Mexican experience away from the bustling tourist centers. Visitors can enjoy leisurely walks through the town's quaint streets, explore local markets brimming with traditional crafts, and savor regional culinary delights. San Luis a la Loma is also close to natural attractions such as rivers and forests, perfect for outdoor enthusiasts who appreciate hiking and nature exploration. The town's festivals and religious celebrations provide a vibrant insight into local traditions and community spirit, making a visit here both a relaxing and culturally enriching experience.";
+
+        document.body.appendChild(paragraph1);
+        document.body.appendChild(image1);
+        document.body.appendChild(image2);
+        document.body.appendChild(paragraph2);
+    </script>
+</body>
+</html>
